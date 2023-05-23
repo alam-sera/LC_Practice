@@ -46,3 +46,20 @@
 
 # end
 # climb_stairs(5)
+
+# Cat And Mouse HackerRank
+# def catAndMouse(x, y, z)
+
+# catA_dist = (x - z).abs
+# catB_dist = (y - z).abs
+
+# if catA_dist == catB_dist
+#   puts 'Mouse C'
+# elsif catA_dist > catB_dist
+#   puts 'Cat B'
+# elsif catA_dist < catB_dist
+#   puts 'Cat a'
+# end 
+# end
+
+# catAndMouse(1,3,2)
