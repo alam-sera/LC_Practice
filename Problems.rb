@@ -47,7 +47,7 @@
 # end
 # climb_stairs(5)
 
-# Cat And Mouse HackerRank
+### Cat And Mouse HackerRank
 # def catAndMouse(x, y, z)
 
 # catA_dist = (x - z).abs
@@ -63,3 +63,21 @@
 # end
 
 # catAndMouse(1,3,2)
+
+### Picking Numbers HackerRank
+# 1. need a way to sort the numbers first
+# 2. than loop thru the array comparing the diff b/w each number, if diff > 1 take the count and and reset count with next number -this part is hard
+# def pickingNumbers(a)
+#   sorted = a.sort
+
+# end
+# pickingNumbers([1,4,7,3,8,1,8,])
+
+### LC Pascals Triangle
+# Given an integer numRows, return the first numRows of Pascal's triangle.
+
+# In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+def generate(num_rows)
+  triangle = []
+  
+end
